@@ -1,0 +1,1687 @@
+{
+   "scope": "text.pdx",
+
+   "completions":
+   [
+        {
+        	"trigger": "any_dynasty_member",
+        	"contents": "any_dynasty_member = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Dynasty -> Character"],
+        	"details": "Iterate through all dynasty members.",
+        },
+        {
+        	"trigger": "any_activity_phase_location",
+        	"contents": "any_activity_phase_location = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Activity -> Province"],
+        	"details": "Iterate through all province locations of the phases of the activity.",
+        },
+        {
+        	"trigger": "any_activity_phase_location_future",
+        	"contents": "any_activity_phase_location_future = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Activity -> Province"],
+        	"details": "Iterate through all future province locations of the activity.",
+        },
+        {
+        	"trigger": "any_activity_phase_location_past",
+        	"contents": "any_activity_phase_location_past = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Activity -> Province"],
+        	"details": "Iterate through all past province locations of the activity.",
+        },
+        {
+        	"trigger": "any_attending_character",
+        	"contents": "any_attending_character = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Activity -> Character"],
+        	"details": "Iterate through all characters attending an activity.",
+        },
+        {
+        	"trigger": "any_guest_subset",
+        	"contents": "any_guest_subset = {\n\tname = ${1:<name>}\n\tphase = ${2:<phase>}\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Activity -> Character"],
+        	"details": "Iterates through characteres within the specified subset.",
+        },
+        {
+        	"trigger": "any_guest_subset_current_phase",
+        	"contents": "any_guest_subset_current_phase = {\n\tname = ${1:<name>}\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Activity -> Character"],
+        	"details": "Iterates through characteres within the current phase.",
+        },
+        {
+        	"trigger": "any_invited_character",
+        	"contents": "any_invited_character = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Activity -> Character"],
+        	"details": "Iterate through all characters invited to an activity.",
+        },
+        {
+        	"trigger": "any_special_guest",
+        	"contents": "any_special_guest = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Activity -> Character"],
+        	"details": "Iterate through all special guests of an activity.",
+        },
+        {
+        	"trigger": "any_culture_county",
+        	"contents": "any_culture_county = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Culture -> Title"],
+        	"details": "Iterate through all counties of the culture.",
+        },
+        {
+        	"trigger": "any_culture_duchy",
+        	"contents": "any_culture_duchy = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Culture -> Title"],
+        	"details": "Iterate through all duchies of the culture.",
+        },
+        {
+        	"trigger": "any_culture_empire",
+        	"contents": "any_culture_empire = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Culture -> Title"],
+        	"details": "Iterate through all empires of the culture.",
+        },
+        {
+        	"trigger": "any_culture_kingdom",
+        	"contents": "any_culture_kingdom = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Culture -> Title"],
+        	"details": "Iterate through all kingdoms of the culture.",
+        },
+        {
+        	"trigger": "any_parent_culture",
+        	"contents": "any_parent_culture = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Culture -> Culture"],
+        	"details": "Iterate through all parent cultures.",
+        },
+        {
+        	"trigger": "any_parent_culture_or_above",
+        	"contents": "any_parent_culture_or_above = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Culture -> Culture"],
+        	"details": "Iterate through all parent cultures or above.",
+        },
+        {
+        	"trigger": "any_tradition",
+        	"contents": "any_tradition = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Culture -> Culture Tradition"],
+        	"details": "Iterate through all traditions of the given culture",
+        },
+        {
+        	"trigger": "any_memory_participant",
+        	"contents": "any_memory_participant = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Memory -> Character"],
+        	"details": "Iterate through all participating character of a memory.",
+        },
+        {
+        	"trigger": "any_house_claimed_artifact",
+        	"contents": "any_house_claimed_artifact = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "House -> Artifact"],
+        	"details": "Iterate through all claimed artifacts of the scoped house.",
+        },
+        {
+        	"trigger": "any_house_member",
+        	"contents": "any_house_member = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "House -> Character"],
+        	"details": "Iterate through all house members.",
+        },
+        {
+        	"trigger": "any_secret_knower",
+        	"contents": "any_secret_knower = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Secret -> Character"],
+        	"details": "Iterate through all characters who know the secret.",
+        },
+        {
+        	"trigger": "any_secret_participant",
+        	"contents": "any_secret_participant = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Secret -> Character"],
+        	"details": "Iterate through participants in a secret.",
+        },
+        {
+        	"trigger": "any_faith",
+        	"contents": "any_faith = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Religion -> Faith"],
+        	"details": "Iterate through all faiths within a religion.",
+        },
+        {
+        	"trigger": "any_entourage_character",
+        	"contents": "any_entourage_character = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Travel Plan -> Character"],
+        	"details": "Iterate through characters travelling with the owner.",
+        },
+        {
+        	"trigger": "any_future_path_location",
+        	"contents": "any_future_path_location = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Travel Plan -> Province"],
+        	"details": "Iterate through provinces in the travel plan route.",
+        },
+        {
+        	"trigger": "any_visited_location",
+        	"contents": "any_visited_location = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Travel Plan -> Province"],
+        	"details": "Iterate through provinces the travel plan has arrived at.",
+        },
+        {
+        	"trigger": "any_defensive_great_holy_wars",
+        	"contents": "any_defensive_great_holy_wars = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Faith -> GHW"],
+        	"details": "Iterate through all GHWs this faith is defending against.",
+        },
+        {
+        	"trigger": "any_faith_character",
+        	"contents": "any_faith_character = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Faith -> Character"],
+        	"details": "Iterate through characters of the scoped faith.",
+        },
+        {
+        	"trigger": "any_faith_holy_order",
+        	"contents": "any_faith_holy_order = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Faith -> Holy Order"],
+        	"details": "Iterate through all holy orders of the faith.",
+        },
+        {
+        	"trigger": "any_faith_playable_ruler",
+        	"contents": "any_faith_playable_ruler = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Faith -> Character"],
+        	"details": "Iterate through playable rulers of the scoped faith.",
+        },
+        {
+        	"trigger": "any_faith_ruler",
+        	"contents": "any_faith_ruler = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Faith -> Character"],
+        	"details": "Iterate through rulers of the scoped faith.",
+        },
+        {
+        	"trigger": "any_holy_site",
+        	"contents": "any_holy_site = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Faith -> Title"],
+        	"details": "Iterate through all holy site baronies of a faith.",
+        },
+        {
+        	"trigger": "any_interloper_ruler",
+        	"contents": "any_interloper_ruler = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Struggle -> Character"],
+        	"details": "Iterate through all interloper characters in a struggle.",
+        },
+        {
+        	"trigger": "any_involved_ruler",
+        	"contents": "any_involved_ruler = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Struggle -> Character"],
+        	"details": "Iterate through all involved characters in a struggle.",
+        },
+        {
+        	"trigger": "any_pledged_attacker",
+        	"contents": "any_pledged_attacker = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "GHW -> Character"],
+        	"details": "Iterate through all pledged attackers within a GHW.",
+        },
+        {
+        	"trigger": "any_pledged_defender",
+        	"contents": "any_pledged_defender = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "GHW -> Character"],
+        	"details": "Iterate through all pledged defenders within a GHW.",
+        },
+        {
+        	"trigger": "any_target_title",
+        	"contents": "any_target_title = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Casus Belli -> Title"],
+        	"details": "Iterate through all casus belli's target titles.",
+        },
+        {
+        	"trigger": "any_artifact_claimant",
+        	"contents": "any_artifact_claimant = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Artifact -> Character"],
+        	"details": "Iterate through characters with a claim on the scoped artifact.",
+        },
+        {
+        	"trigger": "any_artifact_house_claimant",
+        	"contents": "any_artifact_house_claimant = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Artifact -> House"],
+        	"details": "Iterate through dynasty houses with a claim on the scoped artifact.",
+        },
+        {
+        	"trigger": "any_killed_character",
+        	"contents": "any_killed_character = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Artifact/Character -> Character"],
+        	"details": "Iterate through all kills of a character.",
+        },
+        {
+        	"trigger": "any_accolade_type",
+        	"contents": "any_accolade_type = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Accolade Type"],
+        	"details": "",
+        },
+        {
+        	"trigger": "any_activity",
+        	"contents": "any_activity = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Activity"],
+        	"details": "Iterate through all activities in the world.",
+        },
+        {
+        	"trigger": "any_activity_type",
+        	"contents": "any_activity_type = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Activity Type"],
+        	"details": "",
+        },
+        {
+        	"trigger": "any_artifact",
+        	"contents": "any_artifact = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Artifact"],
+        	"details": "Iterate through all existing artifacts.",
+        },
+        {
+        	"trigger": "any_barony",
+        	"contents": "any_barony = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Title"],
+        	"details": "Iterate through all baronies in the game.",
+        },
+        {
+        	"trigger": "any_character_with_royal_court",
+        	"contents": "any_character_with_royal_court = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Character"],
+        	"details": "Iterate through all characters with a royal court.",
+        },
+        {
+        	"trigger": "any_county",
+        	"contents": "any_county = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Title"],
+        	"details": "Iterate through all counties in the game.",
+        },
+        {
+        	"trigger": "any_county_in_region",
+        	"contents": "any_county_in_region = {\n\tregion = ${1:<region>}\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Title"],
+        	"details": "Iterate through all counties in the region.",
+        },
+        {
+        	"trigger": "any_culture_global",
+        	"contents": "any_culture_global = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Culture"],
+        	"details": "Iterate through all cultures in the game.",
+        },
+        {
+        	"trigger": "any_culture_pillar",
+        	"contents": "any_culture_pillar = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Culture Pillar"],
+        	"details": "",
+        },
+        {
+        	"trigger": "any_culture_tradition",
+        	"contents": "any_culture_tradition = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Culture Tradition"],
+        	"details": "",
+        },
+        {
+        	"trigger": "any_decision",
+        	"contents": "any_decision = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Decision"],
+        	"details": "",
+        },
+        {
+        	"trigger": "any_doctrine",
+        	"contents": "any_doctrine = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Doctrine"],
+        	"details": "",
+        },
+        {
+        	"trigger": "any_duchy",
+        	"contents": "any_duchy = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Title"],
+        	"details": "Iterate through all duchies in the game.",
+        },
+        {
+        	"trigger": "any_empire",
+        	"contents": "any_empire = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Title"],
+        	"details": "Iterate through all empires in the game.",
+        },
+        {
+        	"trigger": "any_government_type",
+        	"contents": "any_government_type = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Government Type"],
+        	"details": "",
+        },
+        {
+        	"trigger": "any_in_global_list (list)",
+        	"contents": "any_in_global_list = {\n\tlist = ${1:<list>}\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All"],
+        	"details": "Iterate through all items in global list.",
+        },
+        {
+        	"trigger": "any_in_global_list (variable)",
+        	"contents": "any_in_global_list = {\n\tvariable = ${1:<variable>}\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All"],
+        	"details": "Iterate through all items in global list.",
+        },
+        {
+        	"trigger": "any_in_list (list)",
+        	"contents": "any_in_list = {\n\tlist = ${1:<list>}\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All"],
+        	"details": "Iterate through all items in list.",
+        },
+        {
+        	"trigger": "any_in_list (variable)",
+        	"contents": "any_in_list = {\n\tvariable = ${1:<variable>}\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All"],
+        	"details": "Iterate through all items in list.",
+        },
+        {
+        	"trigger": "any_in_local_list (list)",
+        	"contents": "any_in_local_list = {\n\tlist = ${1:<list>}\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All"],
+        	"details": "Iterate through all items in local list.",
+        },
+        {
+        	"trigger": "any_in_local_list (variable)",
+        	"contents": "any_in_local_list = {\n\tvariable = ${1:<variable>}\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All"],
+        	"details": "Iterate through all items in local list.",
+        },
+        {
+        	"trigger": "any_independent_ruler",
+        	"contents": "any_independent_ruler = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Character"],
+        	"details": "Independent rulers list with a COUNT tier or above who hold land.",
+        },
+        {
+        	"trigger": "any_inspiration",
+        	"contents": "any_inspiration = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Inspiration"],
+        	"details": "Iterate through all inspirations in the world.",
+        },
+        {
+        	"trigger": "any_inspired_character",
+        	"contents": "any_inspired_character = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Character"],
+        	"details": "Iterate through characters with an inspiration in the world.",
+        },
+        {
+        	"trigger": "any_kingdom",
+        	"contents": "any_kingdom = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Title"],
+        	"details": "Iterate through all kingdoms in the game.",
+        },
+        {
+        	"trigger": "any_living_character",
+        	"contents": "any_living_character = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Character"],
+        	"details": "Iterate through all living characters.",
+        },
+        {
+        	"trigger": "any_mercenary_company",
+        	"contents": "any_mercenary_company = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Mercenary Company"],
+        	"details": "Iterate through all mercenary companies.",
+        },
+        {
+        	"trigger": "any_open_invite_activity",
+        	"contents": "any_open_invite_activity = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Activity"],
+        	"details": "Iterate through all open invite activities in the world.",
+        },
+        {
+        	"trigger": "any_player",
+        	"contents": "any_player = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Character"],
+        	"details": "Iterate through all player characters.",
+        },
+        {
+        	"trigger": "any_pool_character",
+        	"contents": "any_pool_character = {\n\tprovince = ${1:<province>}\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Character"],
+        	"details": "Iterate through all characters in the given province.",
+        },
+        {
+        	"trigger": "any_province",
+        	"contents": "any_province = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Province"],
+        	"details": "Iterate through all provinces (skips non-land/impassable).",
+        },
+        {
+        	"trigger": "any_religion_global",
+        	"contents": "any_religion_global = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Religion"],
+        	"details": "Iterate through all religions in the game.",
+        },
+        {
+        	"trigger": "any_ruler",
+        	"contents": "any_ruler = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Character"],
+        	"details": "Rulers list with a COUNT tier o above.",
+        },
+        {
+        	"trigger": "any_special_building_province",
+        	"contents": "any_special_building_province = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Province"],
+        	"details": "Iterate through all provinces with a special building slot.",
+        },
+        {
+        	"trigger": "any_trait",
+        	"contents": "any_trait = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Trait"],
+        	"details": ""
+        },
+        {
+        	"trigger": "any_trait_in_category",
+        	"contents": "any_trait_in_category = {\n\tcategory = ${1:<category>}\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Trait"],
+        	"details": "Iterate through all traits in a given category."
+        },
+        {
+        	"trigger": "any_vassal_contract",
+        	"contents": "any_vassal_contract = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Vassal Contract"],
+        	"details": ""
+        },
+        {
+        	"trigger": "any_army_in_location",
+        	"contents": "any_army_in_location = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Province -> Army"],
+        	"details": "Iterate through all armies in the scoped province."
+        },
+        {
+        	"trigger": "any_character_in_location",
+        	"contents": "any_character_in_location = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Province -> Character"],
+        	"details": "Iterate through characters located in the scoped province."
+        },
+        {
+        	"trigger": "any_neighboring_province",
+        	"contents": "any_neighboring_province = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Province -> Province"],
+        	"details": "Iterate through all neighboring provinces of a province."
+        },
+        {
+        	"trigger": "any_war_attacker",
+        	"contents": "any_war_attacker = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "War -> Character"],
+        	"details": "Iterate through all attackers in the war."
+        },
+        {
+        	"trigger": "any_war_defender",
+        	"contents": "any_war_defender = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "War -> Character"],
+        	"details": "Iterate through all defenders in the war."
+        },
+        {
+        	"trigger": "any_war_participant",
+        	"contents": "any_war_participant = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "War -> Character"],
+        	"details": "Iterate through all participants in the war."
+        },
+        {
+        	"trigger": "any_leased_title",
+        	"contents": "any_leased_title = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Holy Order -> Title"],
+        	"details": "Iterate through all titles leased to a holy order."
+        },
+        {
+        	"trigger": "any_opposite_trait",
+        	"contents": "any_opposite_trait = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Trait -> Trait"],
+        	"details": "Iterate through all opposite traits of the scoped trait."
+        },
+        {
+        	"trigger": "any_scheme_agent",
+        	"contents": "any_scheme_agent = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Scheme -> Character"],
+        	"details": "Iterate through all agents in the scheme."
+        },
+        {
+        	"trigger": "any_acclaimed_knight",
+        	"contents": "any_acclaimed_knight = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through acclaimed knights employed by a given character."
+        },
+        {
+        	"trigger": "any_accolade",
+        	"contents": "any_accolade = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Accolade"],
+        	"details": "Iterate through all (active and inactive) Accolades of a given liege character's Acclaimed Knights."
+        },
+        {
+        	"trigger": "any_active_accolade",
+        	"contents": "any_active_accolade = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Accolade"],
+        	"details": "Iterate through all active Accolades of a given liege character's Acclaimed Knights."
+        },
+        {
+        	"trigger": "any_alert_creatable_title",
+        	"contents": "any_alert_creatable_title = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all titles that can be created by the character."
+        },
+        {
+        	"trigger": "any_alert_usurpable_title",
+        	"contents": "any_alert_usurpable_title = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all titles that can be usurped by the character."
+        },
+        {
+        	"trigger": "any_ally",
+        	"contents": "any_ally = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all allies."
+        },
+        {
+        	"trigger": "any_ancestor",
+        	"contents": "any_ancestor = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all the ancestors of the scope character up to 5 generations."
+        },
+        {
+        	"trigger": "any_army",
+        	"contents": "any_army = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Army"],
+        	"details": "Iterate through all armies."
+        },
+        {
+        	"trigger": "any_character_artifact",
+        	"contents": "any_character_artifact = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Artifact"],
+        	"details": "Iterate through all artifacts in a given characters inventory."
+        },
+        {
+        	"trigger": "any_character_struggle",
+        	"contents": "any_character_struggle = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Struggle"],
+        	"details": "Iterate through all struggles that character is involved in."
+        },
+        {
+        	"trigger": "any_character_struggle (involvement)",
+        	"contents": "any_character_struggle = {\n\tinvolvement = ${1:<involved | interloper>}\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Struggle"],
+        	"details": "Iterate through all struggles that character is involved in."
+        },
+        {
+        	"trigger": "any_character_to_title_neighboring_and_across_water_county",
+        	"contents": "any_character_to_title_neighboring_and_across_water_county = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Scopes from a character to a neighboring county."
+        },
+        {
+        	"trigger": "any_character_to_title_neighboring_and_across_water_duchy",
+        	"contents": "any_character_to_title_neighboring_and_across_water_duchy = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Scopes from a character to a neighboring duchy."
+        },
+        {
+        	"trigger": "any_character_to_title_neighboring_and_across_water_empire",
+        	"contents": "any_character_to_title_neighboring_and_across_water_empire = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Scopes from a character to a neighboring empire."
+        },
+        {
+        	"trigger": "any_character_to_title_neighboring_and_across_water_kingdom",
+        	"contents": "any_character_to_title_neighboring_and_across_water_kingdom = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Scopes from a character to a neighboring kingdom."
+        },
+        {
+        	"trigger": "any_character_to_title_neighboring_county",
+        	"contents": "any_character_to_title_neighboring_county = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Scopes from a character to a neighboring county."
+        },
+        {
+        	"trigger": "any_character_to_title_neighboring_duchy",
+        	"contents": "any_character_to_title_neighboring_duchy = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Scopes from a character to a neighboring duchy."
+        },
+        {
+        	"trigger": "any_character_to_title_neighboring_empire",
+        	"contents": "any_character_to_title_neighboring_empire = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Scopes from a character to a neighboring empire."
+        },
+        {
+        	"trigger": "any_character_to_title_neighboring_kingdom",
+        	"contents": "any_character_to_title_neighboring_kingdom = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Scopes from a character to a neighboring kingdom."
+        },
+        {
+        	"trigger": "any_character_trait",
+        	"contents": "any_character_trait = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Trait"],
+        	"details": "Iterate through all traits a character has."
+        },
+        {
+        	"trigger": "any_character_war",
+        	"contents": "any_character_war = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> War"],
+        	"details": "Wars of the scoped character."
+        },
+        {
+        	"trigger": "any_child",
+        	"contents": "any_child = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all children."
+        },
+        {
+        	"trigger": "any_claim",
+        	"contents": "any_claim = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through the titles of all claims held by a character."
+        },
+        {
+        	"trigger": "any_claim (parameters)",
+        	"contents": "any_claim = {\n\texplicit = ${1:<yes/no/all>}\n\tpressed = ${2:<yes/no/all>}\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> title"],
+        	"details": "Iterate through the titles of all claims held by a character (with parameters)."
+        },
+        {
+        	"trigger": "any_claimed_artifact",
+        	"contents": "any_claimed_artifact = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Artifact"],
+        	"details": "Iterate through all claimed artifacts of the scoped character."
+        },
+        {
+        	"trigger": "any_close_family_member",
+        	"contents": "any_close_family_member = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all the close family."
+        },
+        {
+        	"trigger": "any_close_or_extended_family_member",
+        	"contents": "any_close_or_extended_family_member = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all the close and extended relatives."
+        },
+        {
+        	"trigger": "any_concubine",
+        	"contents": "any_concubine = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all concubines."
+        },
+        {
+        	"trigger": "any_consort",
+        	"contents": "any_consort = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all consorts (concubines and spouses)."
+        },
+        {
+        	"trigger": "any_councillor",
+        	"contents": "any_councillor = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all councillors."
+        },
+        {
+        	"trigger": "any_court_position_employer",
+        	"contents": "any_court_position_employer = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterates through characters that employ the scoped character in a court position."
+        },
+        {
+        	"trigger": "any_court_position_holder",
+        	"contents": "any_court_position_holder = {\n\ttype = ${1:<position>}\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterates through characters employed by the scoped character in the target court position."
+        },
+        {
+        	"trigger": "any_courtier",
+        	"contents": "any_courtier = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all courtiers."
+        },
+        {
+        	"trigger": "any_courtier_away",
+        	"contents": "any_courtier_away = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all courtiers that are away."
+        },
+        {
+        	"trigger": "any_courtier_or_guest",
+        	"contents": "any_courtier_or_guest = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all courtiers and guests (pool and foreign court guests)."
+        },
+        {
+        	"trigger": "any_de_jure_claim",
+        	"contents": "any_de_jure_claim = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all de jure claims for a character."
+        },
+        {
+        	"trigger": "any_diarchy_succession_character",
+        	"contents": "any_diarchy_succession_character = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all character in the diarchy line of succession."
+        },
+        {
+        	"trigger": "any_diplomacy_councillor",
+        	"contents": "any_diplomacy_councillor = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all diplomacy-based councillors."
+        },
+        {
+        	"trigger": "any_directly_owned_province",
+        	"contents": "any_directly_owned_province = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Province"],
+        	"details": "Iterate through all directly owned provinces."
+        },
+        {
+        	"trigger": "any_election_title",
+        	"contents": "any_election_title = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all titles the scoped character can vote on."
+        },
+        {
+        	"trigger": "any_equipped_character_artifact",
+        	"contents": "any_equipped_character_artifact = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Artifact"],
+        	"details": "Iterate through all equipped artifacts in a given characters inventory."
+        },
+        {
+        	"trigger": "any_extended_family_member",
+        	"contents": "any_extended_family_member = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all the extended family."
+        },
+        {
+        	"trigger": "any_foreign_court_guest",
+        	"contents": "any_foreign_court_guest = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all guests visiting from another court."
+        },
+        {
+        	"trigger": "any_former_concubine",
+        	"contents": "any_former_concubine = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all former concubines. Not persisted past death."
+        },
+        {
+        	"trigger": "any_former_concubinist",
+        	"contents": "any_former_concubinist = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all former concubinists. Not persisted past death."
+        },
+        {
+        	"trigger": "any_former_spouse",
+        	"contents": "any_former_spouse = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all former spouses."
+        },
+        {
+        	"trigger": "any_general_councillor",
+        	"contents": "any_general_councillor = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all councillors that are not related to a skill."
+        },
+        {
+        	"trigger": "any_heir",
+        	"contents": "any_heir = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Heirs of the scoped character."
+        },
+        {
+        	"trigger": "any_heir_title",
+        	"contents": "any_heir_title = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all landed titles character is heir to."
+        },
+        {
+        	"trigger": "any_heir_to_title",
+        	"contents": "any_heir_to_title = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all titles the scoped character is heir to."
+        },
+        {
+        	"trigger": "any_held_title",
+        	"contents": "any_held_title = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all held landed titles."
+        },
+        {
+        	"trigger": "any_hired_mercenary",
+        	"contents": "any_hired_mercenary = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Mercenary Company"],
+        	"details": "Iterate through all hired mercenary companies."
+        },
+        {
+        	"trigger": "any_home_court_hostage",
+        	"contents": "any_home_court_hostage = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all hostages currently abroad."
+        },
+        {
+        	"trigger": "any_hooked_character",
+        	"contents": "any_hooked_character = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all characters this character has a hook on."
+        },
+        {
+        	"trigger": "any_hostile_raider",
+        	"contents": "any_hostile_raider = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through anyone the character is hostile to due to their top-liege's realm having been raided."
+        },
+        {
+        	"trigger": "any_intrigue_councillor",
+        	"contents": "any_intrigue_councillor = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all intrigue-based councillors."
+        },
+        {
+        	"trigger": "any_invited_activity",
+        	"contents": "any_invited_activity = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Activity"],
+        	"details": "Iterate through all activities a character has been invited to."
+        },
+        {
+        	"trigger": "any_knight",
+        	"contents": "any_knight = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all knights."
+        },
+        {
+        	"trigger": "any_known_secret",
+        	"contents": "any_known_secret = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Secret"],
+        	"details": "Iterate through all secrets known by the character."
+        },
+        {
+        	"trigger": "any_learning_councillor",
+        	"contents": "any_learning_councillor = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all learning-based councillors."
+        },
+        {
+        	"trigger": "any_liege_or_above",
+        	"contents": "any_liege_or_above = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all lieges above a character (skipping the character themselves)."
+        },
+        {
+        	"trigger": "any_martial_councillor",
+        	"contents": "any_martial_councillor = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all martial-based councillors."
+        },
+        {
+        	"trigger": "any_memory",
+        	"contents": "any_memory = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Memory"],
+        	"details": "Iterate through all memories of a character."
+        },
+        {
+        	"trigger": "any_neighboring_and_across_water_realm_same_rank_owner",
+        	"contents": "any_neighboring_and_across_water_realm_same_rank_owner = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "A sub-realm or realm bordering the scope character's realm."
+        },
+        {
+        	"trigger": "any_neighboring_and_across_water_top_liege_realm",
+        	"contents": "any_neighboring_and_across_water_top_liege_realm = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "A realm with a different top liege neighboring the realm of the scope character's top liege."
+        },
+        {
+        	"trigger": "any_neighboring_and_across_water_top_liege_realm_owner",
+        	"contents": "any_neighboring_and_across_water_top_liege_realm_owner = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "A realm with a different top liege neighboring the realm of the scope character's top liege."
+        },
+        {
+        	"trigger": "any_neighboring_realm_same_rank_owner",
+        	"contents": "any_neighboring_realm_same_rank_owner = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "A sub-realm or realm bordering the scope character's realm and has the same rank as the scope character."
+        },
+        {
+        	"trigger": "any_neighboring_top_liege_realm",
+        	"contents": "any_neighboring_top_liege_realm = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "A realm with a different top liege neighboring the realm of the scope character's top liege; switches to the realm's top title."
+        },
+        {
+        	"trigger": "any_neighboring_top_liege_realm_owner",
+        	"contents": "any_neighboring_top_liege_realm_owner = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "A realm with a different top liege neighboring the realm of the scope character's top liege; switches to the holder of the realm."
+        },
+        {
+        	"trigger": "any_opposite_sex_spouse_candidate",
+        	"contents": "any_opposite_sex_spouse_candidate = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all the spouse candidates of the opposite sex of a character."
+        },
+        {
+        	"trigger": "any_owned_story",
+        	"contents": "any_owned_story = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Story"],
+        	"details": "Iterate through all owned stories for a character."
+        },
+        {
+        	"trigger": "any_parent",
+        	"contents": "any_parent = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all (both) parents."
+        },
+        {
+        	"trigger": "any_patroned_holy_order",
+        	"contents": "any_patroned_holy_order = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Holy Order"],
+        	"details": "Iterate through all holy orders that the scoped character is a patron of."
+        },
+        {
+        	"trigger": "any_personal_claimed_artifact",
+        	"contents": "any_personal_claimed_artifact = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Artifact"],
+        	"details": "Iterate through all personally claimed artifacts of the scoped character."
+        },
+        {
+        	"trigger": "any_pinned_character",
+        	"contents": "any_pinned_character = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through characters this player has pinned."
+        },
+        {
+        	"trigger": "any_pinning_character",
+        	"contents": "any_pinning_character = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through characters whose player has this character pinned."
+        },
+        {
+        	"trigger": "any_played_character",
+        	"contents": "any_played_character = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all characters the player playing this character has played."
+        },
+        {
+        	"trigger": "any_player_heir",
+        	"contents": "any_player_heir = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through player heirs, capped at the first 10."
+        },
+        {
+        	"trigger": "any_pool_guest",
+        	"contents": "any_pool_guest = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all guests visiting the court from the pool."
+        },
+        {
+        	"trigger": "any_potential_marriage_option",
+        	"contents": "any_potential_marriage_option = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all potential selectable marriage or betrothed options."
+        },
+        {
+        	"trigger": "any_powerful_vassal",
+        	"contents": "any_powerful_vassal = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through the all powerful vassals of a character."
+        },
+        {
+        	"trigger": "any_pretender_title",
+        	"contents": "any_pretender_title = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all landed titles character is pretender to."
+        },
+        {
+        	"trigger": "any_primary_war_enemy",
+        	"contents": "any_primary_war_enemy = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all primary war enemies."
+        },
+        {
+        	"trigger": "any_prisoner",
+        	"contents": "any_prisoner = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all prisoners."
+        },
+        {
+        	"trigger": "any_prowess_councillor",
+        	"contents": "any_prowess_councillor = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all prowess-based councillors."
+        },
+        {
+        	"trigger": "any_raid_target",
+        	"contents": "any_raid_target = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through anyone the character is hostile to due to having raided them. Only returns top lieges."
+        },
+        {
+        	"trigger": "any_realm_county",
+        	"contents": "any_realm_county = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all counties in the realm. Based on top liege."
+        },
+        {
+        	"trigger": "any_realm_de_jure_duchy",
+        	"contents": "any_realm_de_jure_duchy = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all de jure duchies that have at least one county in the realm. Based on top liege."
+        },
+        {
+        	"trigger": "any_realm_de_jure_empire",
+        	"contents": "any_realm_de_jure_empire = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all de jure empire that have at least one county in the realm. Based on top liege."
+        },
+        {
+        	"trigger": "any_realm_de_jure_kingdom",
+        	"contents": "any_realm_de_jure_kingdom = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all de jure kingdom that have at least one county in the realm. Based on top liege."
+        },
+        {
+        	"trigger": "any_realm_province",
+        	"contents": "any_realm_province = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Province"],
+        	"details": "Iterate through all realm provinces of a character."
+        },
+        {
+        	"trigger": "any_relation",
+        	"contents": "any_relation = {\n\ttype = ${1:<type>}\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through scripted relations of a given type or multiple types."
+        },
+        {
+        	"trigger": "any_same_sex_spouse_candidate",
+        	"contents": "any_same_sex_spouse_candidate = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all the spouse candidates of the same sex of a character."
+        },
+        {
+        	"trigger": "any_scheme",
+        	"contents": "any_scheme = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Scheme"],
+        	"details": "Iterate through all schemes owned by the character."
+        },
+        {
+        	"trigger": "any_secret",
+        	"contents": "any_secret = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Secret"],
+        	"details": "Iterate through all secrets of the character."
+        },
+        {
+        	"trigger": "any_sibling",
+        	"contents": "any_sibling = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all siblings."
+        },
+        {
+        	"trigger": "any_sponsored_inspiration",
+        	"contents": "any_sponsored_inspiration = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Inspiration"],
+        	"details": "Iterate through all sponsored inspirations."
+        },
+        {
+        	"trigger": "any_spouse",
+        	"contents": "any_spouse = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all spouses."
+        },
+        {
+        	"trigger": "any_spouse_candidate",
+        	"contents": "any_spouse_candidate = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all the spouse candidates of a character."
+        },
+        {
+        	"trigger": "any_stewardship_councillor",
+        	"contents": "any_stewardship_councillor = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all stewardship-based councillors."
+        },
+        {
+        	"trigger": "any_sub_realm_barony",
+        	"contents": "any_sub_realm_barony = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all baronies in sub-realm."
+        },
+        {
+        	"trigger": "any_sub_realm_county",
+        	"contents": "any_sub_realm_county = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all counties in sub-realm."
+        },
+        {
+        	"trigger": "any_sub_realm_duchy",
+        	"contents": "any_sub_realm_duchy = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all duchies in sub-realm."
+        },
+        {
+        	"trigger": "any_sub_realm_empire",
+        	"contents": "any_sub_realm_empire = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all empires in sub-realm."
+        },
+        {
+        	"trigger": "any_sub_realm_kingdom",
+        	"contents": "any_sub_realm_kingdom = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all kingdoms in sub-realm."
+        },
+        {
+        	"trigger": "any_sub_realm_title",
+        	"contents": "any_sub_realm_title = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all titles in sub-realm."
+        },
+        {
+        	"trigger": "any_targeting_faction",
+        	"contents": "any_targeting_faction = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Faction"],
+        	"details": "Iterate through all factions targeting the scope character."
+        },
+        {
+        	"trigger": "any_targeting_scheme",
+        	"contents": "any_targeting_scheme = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Scheme"],
+        	"details": "Iterate through all schemes targeting the character."
+        },
+        {
+        	"trigger": "any_targeting_secret",
+        	"contents": "any_targeting_secret = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Secret"],
+        	"details": "Iterate through all secrets that target the specified scope."
+        },
+        {
+        	"trigger": "any_traveling_family_member",
+        	"contents": "any_traveling_family_member = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate though all characters that should travel with the scoped one (when moving between courts for instance); includes the scoped character."
+        },
+        {
+        	"trigger": "any_truce_holder",
+        	"contents": "any_truce_holder = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all characters that have a truce on this character."
+        },
+        {
+        	"trigger": "any_truce_target",
+        	"contents": "any_truce_target = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all characters this character has a truce on."
+        },
+        {
+        	"trigger": "any_unspent_known_secret",
+        	"contents": "any_unspent_known_secret = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Secret"],
+        	"details": "Iterate through all unspent secrets known by the character."
+        },
+        {
+        	"trigger": "any_vassal",
+        	"contents": "any_vassal = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all DIRECT vassals."
+        },
+        {
+        	"trigger": "any_vassal_or_below",
+        	"contents": "any_vassal_or_below = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through ALL vassals, not just direct vassals."
+        },
+        {
+        	"trigger": "any_war_ally",
+        	"contents": "any_war_ally = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all direct war allies."
+        },
+        {
+        	"trigger": "any_war_enemy",
+        	"contents": "any_war_enemy = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all direct war enemies."
+        },
+        {
+        	"trigger": "any_warden_hostage",
+        	"contents": "any_warden_hostage = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all hostages having this warden."
+        },
+        {
+        	"trigger": "any_combat_side",
+        	"contents": "any_combat_side = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Combat -> Combat Side"],
+        	"details": "Iterate over both sides ( attacker and defender ) of the given combat."
+        },
+        {
+        	"trigger": "any_claimant",
+        	"contents": "any_claimant = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Character"],
+        	"details": "Iterate through all claimants to title."
+        },
+        {
+        	"trigger": "any_connected_county",
+        	"contents": "any_connected_county = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through all counties connected to this one."
+        },
+        {
+        	"trigger": "any_controlled_faith",
+        	"contents": "any_controlled_faith = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Faith"],
+        	"details": "Iterate through all faiths headed by a title."
+        },
+        {
+        	"trigger": "any_county_province",
+        	"contents": "any_county_province = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Province"],
+        	"details": "Iterate through all provinces in a county."
+        },
+        {
+        	"trigger": "any_county_struggle",
+        	"contents": "any_county_struggle = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Struggle"],
+        	"details": "Iterate through all struggles that a county is involved in."
+        },
+        {
+        	"trigger": "any_de_jure_county",
+        	"contents": "any_de_jure_county = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through all counties within this dejure title."
+        },
+        {
+        	"trigger": "any_de_jure_county_holder",
+        	"contents": "any_de_jure_county_holder = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Character"],
+        	"details": "Iterate through all characters directly holding counties within this dejure title."
+        },
+        {
+        	"trigger": "any_de_jure_top_liege",
+        	"contents": "any_de_jure_top_liege = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Character"],
+        	"details": "Iterate through all top lieges of the counts within this dejure title."
+        },
+        {
+        	"trigger": "any_dejure_vassal_title_holder",
+        	"contents": "any_dejure_vassal_title_holder = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Character"],
+        	"details": "Iterate through all the vassal holders of the title."
+        },
+        {
+        	"trigger": "any_direct_de_facto_vassal_title",
+        	"contents": "any_direct_de_facto_vassal_title = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through all de facto vassal titles."
+        },
+        {
+        	"trigger": "any_direct_de_jure_vassal_title",
+        	"contents": "any_direct_de_jure_vassal_title = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through the all de jure vassals titles."
+        },
+        {
+        	"trigger": "any_election_candidate",
+        	"contents": "any_election_candidate = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Character"],
+        	"details": "Iterate through all characters who are valid candidates in an election for a title."
+        },
+        {
+        	"trigger": "any_elector",
+        	"contents": "any_elector = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Character"],
+        	"details": "Iterate through all characters who are valid electors in an election for a title."
+        },
+        {
+        	"trigger": "any_in_de_facto_hierarchy",
+        	"contents": "any_in_de_facto_hierarchy = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through the title itself, all de facto vassals, and below."
+        },
+        {
+        	"trigger": "any_in_de_facto_hierarchy (continue)",
+        	"contents": "any_in_de_facto_hierarchy = {\n\tcontinue = {\n\t\n\t}\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through the title itself, all de facto vassals, and below."
+        },
+        {
+        	"trigger": "any_in_de_jure_hierarchy",
+        	"contents": "any_in_de_jure_hierarchy = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through the title itself, all de jure vassals, and below."
+        },
+        {
+        	"trigger": "any_in_de_jure_hierarchy (continue)",
+        	"contents": "any_in_de_jure_hierarchy = {\n\tcontinue = {\n\t\n\t}\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through the title itself, all de jure vassals, and below."
+        },
+        {
+        	"trigger": "any_neighboring_county",
+        	"contents": "any_neighboring_county = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through all neighboring counties. Can only be used in county scope."
+        },
+        {
+        	"trigger": "any_past_holder",
+        	"contents": "any_past_holder = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Character"],
+        	"details": "Iterate through all past owners of a title from earliest to latest."
+        },
+        {
+        	"trigger": "any_past_holder_reversed",
+        	"contents": "any_past_holder_reversed = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Character"],
+        	"details": "Iterate through all past owners of a title from latest to earliest."
+        },
+        {
+        	"trigger": "any_this_title_or_de_jure_above",
+        	"contents": "any_this_title_or_de_jure_above = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through this title and all its dejure liege titles."
+        },
+        {
+        	"trigger": "any_title_heir",
+        	"contents": "any_title_heir = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Line of succession for the scoped title."
+        },
+        {
+        	"trigger": "any_title_joined_faction",
+        	"contents": "any_title_joined_faction = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Faction"],
+        	"details": "Iterate through all factions joined the scope landed title."
+        },
+        {
+        	"trigger": "any_title_to_title_neighboring_and_across_water_county",
+        	"contents": "any_title_to_title_neighboring_and_across_water_county = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Scopes from a title to a neighboring county (incl. across water, looking trough the de Jure lieges)."
+        },
+        {
+        	"trigger": "any_title_to_title_neighboring_and_across_water_duchy",
+        	"contents": "any_title_to_title_neighboring_and_across_water_duchy = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Scopes from a title to a neighboring duchy (incl. across water, looking trough the de Jure lieges)."
+        },
+        {
+        	"trigger": "any_title_to_title_neighboring_and_across_water_empire",
+        	"contents": "any_title_to_title_neighboring_and_across_water_empire = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Scopes from a title to a neighboring empire (incl. across water, looking trough the de Jure lieges)."
+        },
+        {
+        	"trigger": "any_title_to_title_neighboring_and_across_water_kingdom",
+        	"contents": "any_title_to_title_neighboring_and_across_water_kingdom = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Scopes from a title to a neighboring kingdom (incl. across water, looking trough the de Jure lieges)."
+        },
+        {
+        	"trigger": "any_title_to_title_neighboring_county",
+        	"contents": "any_title_to_title_neighboring_county = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Scopes from a title to a neighboring county (looking trough the de Jure lieges)."
+        },
+        {
+        	"trigger": "any_title_to_title_neighboring_duchy",
+        	"contents": "any_title_to_title_neighboring_duchy = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Scopes from a title to a neighboring duchy (looking trough the de Jure lieges)."
+        },
+        {
+        	"trigger": "any_title_to_title_neighboring_empire",
+        	"contents": "any_title_to_title_neighboring_empire = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Scopes from a title to a neighboring empire (looking trough the de Jure lieges)."
+        },
+        {
+        	"trigger": "any_title_to_title_neighboring_kingdom",
+        	"contents": "any_title_to_title_neighboring_kingdom = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Scopes from a title to a neighboring kingdom (looking trough the de Jure lieges)."
+        },
+        {
+        	"trigger": "any_faction_county_member",
+        	"contents": "any_faction_county_member = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Faction -> Title"],
+        	"details": "Iterate through all faction county members."
+        },
+        {
+        	"trigger": "any_faction_member",
+        	"contents": "any_faction_member = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Faction -> Character"],
+        	"details": "Iterate through all faction character members."
+        },
+        {
+        	"trigger": "any_side_commander",
+        	"contents": "any_side_commander = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Combat Side -> Character"],
+        	"details": "Iterate through all commanders (the commanders of every army on the side, not just the one leading the battle)."
+        },
+        {
+        	"trigger": "any_side_knight",
+        	"contents": "any_side_knight = {\n\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Combat Side -> Character"],
+        	"details": "Iterate through all knights."
+        },
+   ]
+}

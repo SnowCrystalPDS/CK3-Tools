@@ -1,0 +1,49 @@
+{
+   "scope": "text.pdx",
+
+   "completions":
+   [
+        {
+        	"trigger": "prowess",
+        	"contents": "prowess",
+        	"annotation": "Skill",
+        	"kind": ["variable", "S", "Skill"],
+        	"details": "Prowess",
+        },
+        {
+        	"trigger": "diplomacy",
+        	"contents": "diplomacy",
+        	"annotation": "Skill",
+        	"kind": ["variable", "S", "Skill"],
+        	"details": "Diplomacy",
+        },
+        {
+        	"trigger": "stewardship",
+        	"contents": "stewardship",
+        	"annotation": "Skill",
+        	"kind": ["variable", "S", "Skill"],
+        	"details": "Stewardship",
+        },
+        {
+        	"trigger": "martial",
+        	"contents": "martial",
+        	"annotation": "Skill",
+        	"kind": ["variable", "S", "Skill"],
+        	"details": "Martial",
+        },
+        {
+        	"trigger": "intrigue",
+        	"contents": "intrigue",
+        	"annotation": "Skill",
+        	"kind": ["variable", "S", "Skill"],
+        	"details": "Intrigue",
+        },
+        {
+        	"trigger": "learning",
+        	"contents": "learning",
+        	"annotation": "Skill",
+        	"kind": ["variable", "S", "Skill"],
+        	"details": "Learning",
+        },
+   ]
+}

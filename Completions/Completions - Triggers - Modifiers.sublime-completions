@@ -1,0 +1,112 @@
+{
+   "scope": "text.pdx",
+
+   "completions":
+   [
+        {
+        	"trigger": "has_dynasty_modifier",
+        	"contents": "has_dynasty_modifier = ${1:<modifier>}\n",
+        	"annotation": "Trigger",
+        	"kind": ["navigation", "T", "Dynasty"],
+        	"details": "Does the scoped dynasty have a given modifier?",
+        },
+        {
+        	"trigger": "has_dynasty_modifier_duration_remaining",
+        	"contents": "has_dynasty_modifier_duration_remaining = ${1:<modifier>}\n",
+        	"annotation": "Trigger",
+        	"kind": ["navigation", "T", "Dynasty"],
+        	"details": "Does the scoped dynasty have the duration remaining on a given modifier?",
+        },
+        {
+        	"trigger": "has_house_modifier",
+        	"contents": "has_house_modifier = ${1:<modifier>}\n",
+        	"annotation": "Trigger",
+        	"kind": ["navigation", "T", "House"],
+        	"details": "Does the scoped house have a given modifier?",
+        },
+        {
+        	"trigger": "has_house_modifier_duration_remaining",
+        	"contents": "has_house_modifier_duration_remaining = ${1:<modifier>}\n",
+        	"annotation": "Trigger",
+        	"kind": ["navigation", "T", "House"],
+        	"details": "Does the scoped house have the duration remaining on a given modifier?",
+        },
+        {
+        	"trigger": "has_travel_plan_modifier",
+        	"contents": "has_travel_plan_modifier = ${1:<modifier>}",
+        	"annotation": "Effect",
+        	"kind": ["function", "E", "Travel Plan"],
+        	"details": "Does the scoped travel plan have a given modifier?",
+        },
+        {
+        	"trigger": "has_artifact_modifier",
+        	"contents": "has_artifact_modifier = ${1:<modifier>}",
+        	"annotation": "Effect",
+        	"kind": ["function", "E", "Artifact"],
+        	"details": "Does the artifact have the given modifier?",
+        },
+        {
+        	"trigger": "has_province_modifier",
+        	"contents": "has_province_modifier = ${1:<modifier>}\n",
+        	"annotation": "Trigger",
+        	"kind": ["navigation", "T", "Province"],
+        	"details": "Does the scoped province have a given modifier?",
+        },
+        {
+        	"trigger": "has_province_modifier_duration_remaining",
+        	"contents": "has_province_modifier_duration_remaining = ${1:<modifier>}\n",
+        	"annotation": "Trigger",
+        	"kind": ["navigation", "T", "Province"],
+        	"details": "Does the scoped province have the duration remaining on a given modifier?",
+        },
+        {
+        	"trigger": "has_scheme_modifier",
+        	"contents": "has_scheme_modifier = ${1:<modifier>}\n",
+        	"annotation": "Trigger",
+        	"kind": ["navigation", "T", "Scheme"],
+        	"details": "Is the scheme currently affected by the specified modifier?",
+        },
+        {
+        	"trigger": "has_character_modifier",
+        	"contents": "has_character_modifier = ${1:<modifier>}\n",
+        	"annotation": "Trigger",
+        	"kind": ["navigation", "T", "Character"],
+        	"details": "Does the scoped character have a given modifier?",
+        },
+        {
+        	"trigger": "has_character_modifier_duration_remaining",
+        	"contents": "has_character_modifier_duration_remaining = ${1:<modifier>}\n",
+        	"annotation": "Trigger",
+        	"kind": ["navigation", "T", "Character"],
+        	"details": "Does the scoped character have the duration remaining on a given modifier?",
+        },
+        {
+        	"trigger": "has_opinion_modifier",
+        	"contents": "has_opinion_modifier = {\n\tmodifier = ${1:<modifier>}\n\ttarget = ${2:<character>}\n}\n",
+        	"annotation": "Trigger",
+        	"kind": ["navigation", "T", "Title"],
+        	"details": "Does the character have the specified opinion modifier on the target?",
+        },
+        {
+        	"trigger": "reverse_has_opinion_modifier",
+        	"contents": "reverse_has_opinion_modifier = {\n\tmodifier = ${1:<modifier>}\n\ttarget = ${2:<character>}\n}\n",
+        	"annotation": "Trigger",
+        	"kind": ["navigation", "T", "Title"],
+        	"details": "Does the character have the specified opinion modifier on the target?",
+        },
+        {
+        	"trigger": "has_county_modifier",
+        	"contents": "has_county_modifier = ${1:<modifier>}\n",
+        	"annotation": "Trigger",
+        	"kind": ["navigation", "T", "Title"],
+        	"details": "Does the scoped county have a given modifier?",
+        },
+        {
+        	"trigger": "has_county_modifier_duration_remaining",
+        	"contents": "has_county_modifier_duration_remaining = ${1:<modifier>}\n",
+        	"annotation": "Trigger",
+        	"kind": ["navigation", "T", "Title"],
+        	"details": "Does the scoped county have the duration remaining on a given modifier?",
+        },
+   ]
+}

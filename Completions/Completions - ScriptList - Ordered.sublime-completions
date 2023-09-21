@@ -1,0 +1,1687 @@
+{
+   "scope": "text.pdx",
+
+   "completions":
+   [
+        {
+        	"trigger": "ordered_dynasty_member",
+        	"contents": "ordered_dynasty_member = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Dynasty -> Character"],
+        	"details": "Iterate through all dynasty members.",
+        },
+        {
+        	"trigger": "ordered_activity_phase_location",
+        	"contents": "ordered_activity_phase_location = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Activity -> Province"],
+        	"details": "Iterate through all province locations of the phases of the activity.",
+        },
+        {
+        	"trigger": "ordered_activity_phase_location_future",
+        	"contents": "ordered_activity_phase_location_future = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Activity -> Province"],
+        	"details": "Iterate through all future province locations of the activity.",
+        },
+        {
+        	"trigger": "ordered_activity_phase_location_past",
+        	"contents": "ordered_activity_phase_location_past = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Activity -> Province"],
+        	"details": "Iterate through all past province locations of the activity.",
+        },
+        {
+        	"trigger": "ordered_attending_character",
+        	"contents": "ordered_attending_character = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Activity -> Character"],
+        	"details": "Iterate through all characters attending an activity.",
+        },
+        {
+        	"trigger": "ordered_guest_subset",
+        	"contents": "ordered_guest_subset = {\n\tname = ${1:<name>}\n\tphase = ${2:<phase>}\n\torder_by = ${3:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Activity -> Character"],
+        	"details": "Iterates through characteres within the specified subset.",
+        },
+        {
+        	"trigger": "ordered_guest_subset_current_phase",
+        	"contents": "ordered_guest_subset_current_phase = {\n\tname = ${1:<name>}\n\torder_by = ${2:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Activity -> Character"],
+        	"details": "Iterates through characteres within the current phase.",
+        },
+        {
+        	"trigger": "ordered_invited_character",
+        	"contents": "ordered_invited_character = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Activity -> Character"],
+        	"details": "Iterate through all characters invited to an activity.",
+        },
+        {
+        	"trigger": "ordered_special_guest",
+        	"contents": "ordered_special_guest = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Activity -> Character"],
+        	"details": "Iterate through all special guests of an activity.",
+        },
+        {
+        	"trigger": "ordered_culture_county",
+        	"contents": "ordered_culture_county = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Culture -> Title"],
+        	"details": "Iterate through all counties of the culture.",
+        },
+        {
+        	"trigger": "ordered_culture_duchy",
+        	"contents": "ordered_culture_duchy = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Culture -> Title"],
+        	"details": "Iterate through all duchies of the culture.",
+        },
+        {
+        	"trigger": "ordered_culture_empire",
+        	"contents": "ordered_culture_empire = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Culture -> Title"],
+        	"details": "Iterate through all empires of the culture.",
+        },
+        {
+        	"trigger": "ordered_culture_kingdom",
+        	"contents": "ordered_culture_kingdom = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Culture -> Title"],
+        	"details": "Iterate through all kingdoms of the culture.",
+        },
+        {
+        	"trigger": "ordered_parent_culture",
+        	"contents": "ordered_parent_culture = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Culture -> Culture"],
+        	"details": "Iterate through all parent cultures.",
+        },
+        {
+        	"trigger": "ordered_parent_culture_or_above",
+        	"contents": "ordered_parent_culture_or_above = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Culture -> Culture"],
+        	"details": "Iterate through all parent cultures or above.",
+        },
+        {
+        	"trigger": "ordered_tradition",
+        	"contents": "ordered_tradition = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Culture -> Culture Tradition"],
+        	"details": "Iterate through all traditions of the given culture.",
+        },
+        {
+        	"trigger": "ordered_memory_participant",
+        	"contents": "ordered_memory_participant = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Memory -> Character"],
+        	"details": "Iterate through all participating character of a memory.",
+        },
+        {
+        	"trigger": "ordered_house_claimed_artifact",
+        	"contents": "ordered_house_claimed_artifact = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "House -> Artifact"],
+        	"details": "Iterate through all claimed artifacts of the scoped house.",
+        },
+        {
+        	"trigger": "ordered_house_member",
+        	"contents": "ordered_house_member = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "House -> Character"],
+        	"details": "Iterate through all house members.",
+        },
+        {
+        	"trigger": "ordered_secret_knower",
+        	"contents": "ordered_secret_knower = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Secret -> Character"],
+        	"details": "Iterate through all characters who know the secret.",
+        },
+        {
+        	"trigger": "ordered_secret_participant",
+        	"contents": "ordered_secret_participant = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Secret -> Character"],
+        	"details": "Iterate through participants in a secret.",
+        },
+        {
+        	"trigger": "ordered_faith",
+        	"contents": "ordered_faith = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Religion -> Faith"],
+        	"details": "Iterate through all faiths within a religion.",
+        },
+        {
+        	"trigger": "ordered_entourage_character",
+        	"contents": "ordered_entourage_character = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Travel Plan -> Character"],
+        	"details": "Iterate through characters travelling with the owner.",
+        },
+        {
+        	"trigger": "ordered_future_path_location",
+        	"contents": "ordered_future_path_location = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Travel Plan -> Province"],
+        	"details": "Iterate through provinces in the travel plan route.",
+        },
+        {
+        	"trigger": "ordered_visited_location",
+        	"contents": "ordered_visited_location = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Travel Plan -> Province"],
+        	"details": "Iterate through provinces the travel plan has arrived at.",
+        },
+        {
+        	"trigger": "ordered_defensive_great_holy_wars",
+        	"contents": "ordered_defensive_great_holy_wars = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Faith -> GHW"],
+        	"details": "Iterate through all GHWs this faith is defending against.",
+        },
+        {
+        	"trigger": "ordered_faith_character",
+        	"contents": "ordered_faith_character = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Faith -> Character"],
+        	"details": "Iterate through characters of the scoped faith.",
+        },
+        {
+        	"trigger": "ordered_faith_holy_order",
+        	"contents": "ordered_faith_holy_order = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Faith -> Holy Order"],
+        	"details": "Iterate through all holy orders of the faith.",
+        },
+        {
+        	"trigger": "ordered_faith_playable_ruler",
+        	"contents": "ordered_faith_playable_ruler = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Faith -> Character"],
+        	"details": "Iterate through playable rulers of the scoped faith.",
+        },
+        {
+        	"trigger": "ordered_faith_ruler",
+        	"contents": "ordered_faith_ruler = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Faith -> Character"],
+        	"details": "Iterate through rulers of the scoped faith.",
+        },
+        {
+        	"trigger": "ordered_holy_site",
+        	"contents": "ordered_holy_site = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Faith -> Title"],
+        	"details": "Iterate through all holy site baronies of a faith.",
+        },
+        {
+        	"trigger": "ordered_interloper_ruler",
+        	"contents": "ordered_interloper_ruler = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Struggle -> Character"],
+        	"details": "Iterate through all interloper characters in a struggle.",
+        },
+        {
+        	"trigger": "ordered_involved_ruler",
+        	"contents": "ordered_involved_ruler = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Struggle -> Character"],
+        	"details": "Iterate through all involved characters in a struggle.",
+        },
+        {
+        	"trigger": "ordered_pledged_attacker",
+        	"contents": "ordered_pledged_attacker = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "GHW -> Character"],
+        	"details": "Iterate through all pledged attackers within a GHW.",
+        },
+        {
+        	"trigger": "ordered_pledged_defender",
+        	"contents": "ordered_pledged_defender = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "GHW -> Character"],
+        	"details": "Iterate through all pledged defenders within a GHW.",
+        },
+        {
+        	"trigger": "ordered_target_title",
+        	"contents": "ordered_target_title = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Casus Belli -> Title"],
+        	"details": "Iterate through all casus belli's target titles.",
+        },
+        {
+        	"trigger": "ordered_artifact_claimant",
+        	"contents": "ordered_artifact_claimant = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Artifact -> Character"],
+        	"details": "Iterate through characters with a claim on the scoped artifact.",
+        },
+        {
+        	"trigger": "ordered_artifact_house_claimant",
+        	"contents": "ordered_artifact_house_claimant = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Artifact -> House"],
+        	"details": "Iterate through dynasty houses with a claim on the scoped artifact.",
+        },
+        {
+        	"trigger": "ordered_killed_character",
+        	"contents": "ordered_killed_character = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Artifact/Character -> Character"],
+        	"details": "Iterate through all kills of a character.",
+        },
+        {
+        	"trigger": "ordered_accolade_type",
+        	"contents": "ordered_accolade_type = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Accolade Type"],
+        	"details": "",
+        },
+        {
+        	"trigger": "ordered_activity",
+        	"contents": "ordered_activity = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Activity"],
+        	"details": "Iterate through all activities in the world.",
+        },
+        {
+        	"trigger": "ordered_activity_type",
+        	"contents": "ordered_activity_type = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Activity Type"],
+        	"details": "",
+        },
+        {
+        	"trigger": "ordered_artifact",
+        	"contents": "ordered_artifact = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Artifact"],
+        	"details": "Iterate through all existing artifacts.",
+        },
+        {
+        	"trigger": "ordered_barony",
+        	"contents": "ordered_barony = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Title"],
+        	"details": "Iterate through all baronies in the game.",
+        },
+        {
+        	"trigger": "ordered_character_with_royal_court",
+        	"contents": "ordered_character_with_royal_court = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Character"],
+        	"details": "Iterate through all characters with a royal court.",
+        },
+        {
+        	"trigger": "ordered_county",
+        	"contents": "ordered_county = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Title"],
+        	"details": "Iterate through all counties in the game.",
+        },
+        {
+        	"trigger": "ordered_county_in_region",
+        	"contents": "ordered_county_in_region = {\n\tregion = ${1:<region>}\n\torder_by = ${2:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Title"],
+        	"details": "Iterate through all counties in the region.",
+        },
+        {
+        	"trigger": "ordered_culture_global",
+        	"contents": "ordered_culture_global = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Culture"],
+        	"details": "Iterate through all cultures in the game.",
+        },
+        {
+        	"trigger": "ordered_culture_pillar",
+        	"contents": "ordered_culture_pillar = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Culture Pillar"],
+        	"details": "",
+        },
+        {
+        	"trigger": "ordered_culture_tradition",
+        	"contents": "ordered_culture_tradition = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Culture Tradition"],
+        	"details": "",
+        },
+        {
+        	"trigger": "ordered_decision",
+        	"contents": "ordered_decision = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Decision"],
+        	"details": "",
+        },
+        {
+        	"trigger": "ordered_doctrine",
+        	"contents": "ordered_doctrine = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Doctrine"],
+        	"details": "",
+        },
+        {
+        	"trigger": "ordered_duchy",
+        	"contents": "ordered_duchy = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Title"],
+        	"details": "Iterate through all duchies in the game.",
+        },
+        {
+        	"trigger": "ordered_empire",
+        	"contents": "ordered_empire = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Title"],
+        	"details": "Iterate through all empires in the game.",
+        },
+        {
+        	"trigger": "ordered_government_type",
+        	"contents": "ordered_government_type = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Government Type"],
+        	"details": "",
+        },
+        {
+        	"trigger": "ordered_in_global_list (list)",
+        	"contents": "ordered_in_global_list = {\n\tlist = ${1:<list>}\n\torder_by = ${2:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All"],
+        	"details": "Iterate through all items in global list.",
+        },
+        {
+        	"trigger": "ordered_in_global_list (variable)",
+        	"contents": "ordered_in_global_list = {\n\tvariable = ${1:<variable>}\n\torder_by = ${2:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All"],
+        	"details": "Iterate through all items in global list.",
+        },
+        {
+        	"trigger": "ordered_in_list (list)",
+        	"contents": "ordered_in_list = {\n\tlist = ${1:<list>}\n\torder_by = ${2:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All"],
+        	"details": "Iterate through all items in list.",
+        },
+        {
+        	"trigger": "ordered_in_list (variable)",
+        	"contents": "ordered_in_list = {\n\tvariable = ${1:<variable>}\n\torder_by = ${2:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All"],
+        	"details": "Iterate through all items in list.",
+        },
+        {
+        	"trigger": "ordered_in_local_list (list)",
+        	"contents": "ordered_in_local_list = {\n\tlist = ${1:<list>}\n\torder_by = ${2:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All"],
+        	"details": "Iterate through all items in local list.",
+        },
+        {
+        	"trigger": "ordered_in_local_list (variable)",
+        	"contents": "ordered_in_local_list = {\n\tvariable = ${1:<variable>}\n\torder_by = ${2:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All"],
+        	"details": "Iterate through all items in local list.",
+        },
+        {
+        	"trigger": "ordered_independent_ruler",
+        	"contents": "ordered_independent_ruler = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Character"],
+        	"details": "Independent rulers list with a COUNT tier or above who hold land.",
+        },
+        {
+        	"trigger": "ordered_inspiration",
+        	"contents": "ordered_inspiration = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Inspiration"],
+        	"details": "Iterate through all inspirations in the world.",
+        },
+        {
+        	"trigger": "ordered_inspired_character",
+        	"contents": "ordered_inspired_character = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Character"],
+        	"details": "Iterate through characters with an inspiration in the world.",
+        },
+        {
+        	"trigger": "ordered_kingdom",
+        	"contents": "ordered_kingdom = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Title"],
+        	"details": "Iterate through all kingdoms in the game.",
+        },
+        {
+        	"trigger": "ordered_living_character",
+        	"contents": "ordered_living_character = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Character"],
+        	"details": "Iterate through all living characters.",
+        },
+        {
+        	"trigger": "ordered_mercenary_company",
+        	"contents": "ordered_mercenary_company = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Mercenary Company"],
+        	"details": "Iterate through all mercenary companies.",
+        },
+        {
+        	"trigger": "ordered_open_invite_activity",
+        	"contents": "ordered_open_invite_activity = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Activity"],
+        	"details": "Iterate through all open invite activities in the world.",
+        },
+        {
+        	"trigger": "ordered_player",
+        	"contents": "ordered_player = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Character"],
+        	"details": "Iterate through all player characters.",
+        },
+        {
+        	"trigger": "ordered_pool_character",
+        	"contents": "ordered_pool_character = {\n\tprovince = ${1:<province>}\n\torder_by = ${2:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Character"],
+        	"details": "Iterate through all characters in the given province.",
+        },
+        {
+        	"trigger": "ordered_province",
+        	"contents": "ordered_province = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Province"],
+        	"details": "Iterate through all provinces (skips non-land/impassable).",
+        },
+        {
+        	"trigger": "ordered_religion_global",
+        	"contents": "ordered_religion_global = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Religion"],
+        	"details": "Iterate through all religions in the game.",
+        },
+        {
+        	"trigger": "ordered_ruler",
+        	"contents": "ordered_ruler = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Character"],
+        	"details": "Rulers list with a COUNT tier o above.",
+        },
+        {
+        	"trigger": "ordered_special_building_province",
+        	"contents": "ordered_special_building_province = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Province"],
+        	"details": "Iterate through all provinces with a special building slot.",
+        },
+        {
+        	"trigger": "ordered_trait",
+        	"contents": "ordered_trait = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Trait"],
+        	"details": ""
+        },
+        {
+        	"trigger": "ordered_trait_in_category",
+        	"contents": "ordered_trait_in_category = {\n\tcategory = ${1:<category>}\n\torder_by = ${2:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Trait"],
+        	"details": "Iterate through all traits in a given category."
+        },
+        {
+        	"trigger": "ordered_vassal_contract",
+        	"contents": "ordered_vassal_contract = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "All -> Vassal Contract"],
+        	"details": ""
+        },
+        {
+        	"trigger": "ordered_army_in_location",
+        	"contents": "ordered_army_in_location = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Province -> Army"],
+        	"details": "Iterate through all armies in the scoped province."
+        },
+        {
+        	"trigger": "ordered_character_in_location",
+        	"contents": "ordered_character_in_location = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Province -> Character"],
+        	"details": "Iterate through characters located in the scoped province."
+        },
+        {
+        	"trigger": "ordered_neighboring_province",
+        	"contents": "ordered_neighboring_province = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Province -> Province"],
+        	"details": "Iterate through all neighboring provinces of a province."
+        },
+        {
+        	"trigger": "ordered_war_attacker",
+        	"contents": "ordered_war_attacker = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "War -> Character"],
+        	"details": "Iterate through all attackers in the war."
+        },
+        {
+        	"trigger": "ordered_war_defender",
+        	"contents": "ordered_war_defender = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "War -> Character"],
+        	"details": "Iterate through all defenders in the war."
+        },
+        {
+        	"trigger": "ordered_war_participant",
+        	"contents": "ordered_war_participant = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "War -> Character"],
+        	"details": "Iterate through all participants in the war."
+        },
+        {
+        	"trigger": "ordered_leased_title",
+        	"contents": "ordered_leased_title = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Holy Order -> Title"],
+        	"details": "Iterate through all titles leased to a holy order."
+        },
+        {
+        	"trigger": "ordered_opposite_trait",
+        	"contents": "ordered_opposite_trait = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Trait -> Trait"],
+        	"details": "Iterate through all opposite traits of the scoped trait."
+        },
+        {
+        	"trigger": "ordered_scheme_agent",
+        	"contents": "ordered_scheme_agent = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Scheme -> Character"],
+        	"details": "Iterate through all agents in the scheme."
+        },
+        {
+        	"trigger": "ordered_acclaimed_knight",
+        	"contents": "ordered_acclaimed_knight = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through acclaimed knights employed by a given character."
+        },
+        {
+        	"trigger": "ordered_accolade",
+        	"contents": "ordered_accolade = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Accolade"],
+        	"details": "Iterate through all (active and inactive) Accolades of a given liege character's Acclaimed Knights."
+        },
+        {
+        	"trigger": "ordered_active_accolade",
+        	"contents": "ordered_active_accolade = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Accolade"],
+        	"details": "Iterate through all active Accolades of a given liege character's Acclaimed Knights."
+        },
+        {
+        	"trigger": "ordered_alert_creatable_title",
+        	"contents": "ordered_alert_creatable_title = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all titles that can be created by the character."
+        },
+        {
+        	"trigger": "ordered_alert_usurpable_title",
+        	"contents": "ordered_alert_usurpable_title = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all titles that can be usurped by the character."
+        },
+        {
+        	"trigger": "ordered_ally",
+        	"contents": "ordered_ally = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all allies."
+        },
+        {
+        	"trigger": "ordered_ancestor",
+        	"contents": "ordered_ancestor = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all the ancestors of the scope character up to 5 generations."
+        },
+        {
+        	"trigger": "ordered_army",
+        	"contents": "ordered_army = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Army"],
+        	"details": "Iterate through all armies."
+        },
+        {
+        	"trigger": "ordered_character_artifact",
+        	"contents": "ordered_character_artifact = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Artifact"],
+        	"details": "Iterate through all artifacts in a given characters inventory."
+        },
+        {
+        	"trigger": "ordered_character_struggle",
+        	"contents": "ordered_character_struggle = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Struggle"],
+        	"details": "Iterate through all struggles that character is involved in."
+        },
+        {
+        	"trigger": "ordered_character_struggle (involvement)",
+        	"contents": "ordered_character_struggle = {\n\tinvolvement = ${1:<involved | interloper>}\n\torder_by = ${2:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Struggle"],
+        	"details": "Iterate through all struggles that character is involved in."
+        },
+        {
+        	"trigger": "ordered_character_to_title_neighboring_and_across_water_county",
+        	"contents": "ordered_character_to_title_neighboring_and_across_water_county = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Scopes from a character to a neighboring county."
+        },
+        {
+        	"trigger": "ordered_character_to_title_neighboring_and_across_water_duchy",
+        	"contents": "ordered_character_to_title_neighboring_and_across_water_duchy = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Scopes from a character to a neighboring duchy."
+        },
+        {
+        	"trigger": "ordered_character_to_title_neighboring_and_across_water_empire",
+        	"contents": "ordered_character_to_title_neighboring_and_across_water_empire = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Scopes from a character to a neighboring empire."
+        },
+        {
+        	"trigger": "ordered_character_to_title_neighboring_and_across_water_kingdom",
+        	"contents": "ordered_character_to_title_neighboring_and_across_water_kingdom = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Scopes from a character to a neighboring kingdom."
+        },
+        {
+        	"trigger": "ordered_character_to_title_neighboring_county",
+        	"contents": "ordered_character_to_title_neighboring_county = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Scopes from a character to a neighboring county."
+        },
+        {
+        	"trigger": "ordered_character_to_title_neighboring_duchy",
+        	"contents": "ordered_character_to_title_neighboring_duchy = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Scopes from a character to a neighboring duchy."
+        },
+        {
+        	"trigger": "ordered_character_to_title_neighboring_empire",
+        	"contents": "ordered_character_to_title_neighboring_empire = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Scopes from a character to a neighboring empire."
+        },
+        {
+        	"trigger": "ordered_character_to_title_neighboring_kingdom",
+        	"contents": "ordered_character_to_title_neighboring_kingdom = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Scopes from a character to a neighboring kingdom."
+        },
+        {
+        	"trigger": "ordered_character_trait",
+        	"contents": "ordered_character_trait = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Trait"],
+        	"details": "Iterate through all traits a character has."
+        },
+        {
+        	"trigger": "ordered_character_war",
+        	"contents": "ordered_character_war = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> War"],
+        	"details": "Wars of the scoped character."
+        },
+        {
+        	"trigger": "ordered_child",
+        	"contents": "ordered_child = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all children."
+        },
+        {
+        	"trigger": "ordered_claim",
+        	"contents": "ordered_claim = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through the titles of all claims held by a character."
+        },
+        {
+        	"trigger": "ordered_claim (parameters)",
+        	"contents": "ordered_claim = {\n\texplicit = ${1:<yes/no/all>}\n\tpressed = ${2:<yes/no/all>}\n\torder_by = ${3:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> title"],
+        	"details": "Iterate through the titles of all claims held by a character (with parameters)."
+        },
+        {
+        	"trigger": "ordered_claimed_artifact",
+        	"contents": "ordered_claimed_artifact = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Artifact"],
+        	"details": "Iterate through all claimed artifacts of the scoped character."
+        },
+        {
+        	"trigger": "ordered_close_family_member",
+        	"contents": "ordered_close_family_member = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all the close family."
+        },
+        {
+        	"trigger": "ordered_close_or_extended_family_member",
+        	"contents": "ordered_close_or_extended_family_member = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all the close and extended relatives."
+        },
+        {
+        	"trigger": "ordered_concubine",
+        	"contents": "ordered_concubine = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all concubines."
+        },
+        {
+        	"trigger": "ordered_consort",
+        	"contents": "ordered_consort = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all consorts (concubines and spouses)."
+        },
+        {
+        	"trigger": "ordered_councillor",
+        	"contents": "ordered_councillor = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all councillors."
+        },
+        {
+        	"trigger": "ordered_court_position_employer",
+        	"contents": "ordered_court_position_employer = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterates through characters that employ the scoped character in a court position."
+        },
+        {
+        	"trigger": "ordered_court_position_holder",
+        	"contents": "ordered_court_position_holder = {\n\ttype = ${1:<position>}\n\torder_by = ${2:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterates through characters employed by the scoped character in the target court position."
+        },
+        {
+        	"trigger": "ordered_courtier",
+        	"contents": "ordered_courtier = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all courtiers."
+        },
+        {
+        	"trigger": "ordered_courtier_away",
+        	"contents": "ordered_courtier_away = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all courtiers that are away."
+        },
+        {
+        	"trigger": "ordered_courtier_or_guest",
+        	"contents": "ordered_courtier_or_guest = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all courtiers and guests (pool and foreign court guests)."
+        },
+        {
+        	"trigger": "ordered_de_jure_claim",
+        	"contents": "ordered_de_jure_claim = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all de jure claims for a character."
+        },
+        {
+        	"trigger": "ordered_diarchy_succession_character",
+        	"contents": "ordered_diarchy_succession_character = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all character in the diarchy line of succession."
+        },
+        {
+        	"trigger": "ordered_diplomacy_councillor",
+        	"contents": "ordered_diplomacy_councillor = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all diplomacy-based councillors."
+        },
+        {
+        	"trigger": "ordered_directly_owned_province",
+        	"contents": "ordered_directly_owned_province = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Province"],
+        	"details": "Iterate through all directly owned provinces."
+        },
+        {
+        	"trigger": "ordered_election_title",
+        	"contents": "ordered_election_title = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all titles the scoped character can vote on."
+        },
+        {
+        	"trigger": "ordered_equipped_character_artifact",
+        	"contents": "ordered_equipped_character_artifact = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Artifact"],
+        	"details": "Iterate through all equipped artifacts in a given characters inventory."
+        },
+        {
+        	"trigger": "ordered_extended_family_member",
+        	"contents": "ordered_extended_family_member = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all the extended family."
+        },
+        {
+        	"trigger": "ordered_foreign_court_guest",
+        	"contents": "ordered_foreign_court_guest = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all guests visiting from another court."
+        },
+        {
+        	"trigger": "ordered_former_concubine",
+        	"contents": "ordered_former_concubine = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all former concubines. Not persisted past death."
+        },
+        {
+        	"trigger": "ordered_former_concubinist",
+        	"contents": "ordered_former_concubinist = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all former concubinists. Not persisted past death."
+        },
+        {
+        	"trigger": "ordered_former_spouse",
+        	"contents": "ordered_former_spouse = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all former spouses."
+        },
+        {
+        	"trigger": "ordered_general_councillor",
+        	"contents": "ordered_general_councillor = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all councillors that are not related to a skill."
+        },
+        {
+        	"trigger": "ordered_heir",
+        	"contents": "ordered_heir = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Heirs of the scoped character."
+        },
+        {
+        	"trigger": "ordered_heir_title",
+        	"contents": "ordered_heir_title = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all landed titles character is heir to."
+        },
+        {
+        	"trigger": "ordered_heir_to_title",
+        	"contents": "ordered_heir_to_title = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all titles the scoped character is heir to."
+        },
+        {
+        	"trigger": "ordered_held_title",
+        	"contents": "ordered_held_title = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all held landed titles."
+        },
+        {
+        	"trigger": "ordered_hired_mercenary",
+        	"contents": "ordered_hired_mercenary = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Mercenary Company"],
+        	"details": "Iterate through all hired mercenary companies."
+        },
+        {
+        	"trigger": "ordered_home_court_hostage",
+        	"contents": "ordered_home_court_hostage = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all hostages currently abroad."
+        },
+        {
+        	"trigger": "ordered_hooked_character",
+        	"contents": "ordered_hooked_character = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all characters this character has a hook on."
+        },
+        {
+        	"trigger": "ordered_hostile_raider",
+        	"contents": "ordered_hostile_raider = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through anyone the character is hostile to due to their top-liege's realm having been raided."
+        },
+        {
+        	"trigger": "ordered_intrigue_councillor",
+        	"contents": "ordered_intrigue_councillor = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all intrigue-based councillors."
+        },
+        {
+        	"trigger": "ordered_invited_activity",
+        	"contents": "ordered_invited_activity = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Activity"],
+        	"details": "Iterate through all activities a character has been invited to."
+        },
+        {
+        	"trigger": "ordered_knight",
+        	"contents": "ordered_knight = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all knights."
+        },
+        {
+        	"trigger": "ordered_known_secret",
+        	"contents": "ordered_known_secret = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Secret"],
+        	"details": "Iterate through all secrets known by the character."
+        },
+        {
+        	"trigger": "ordered_learning_councillor",
+        	"contents": "ordered_learning_councillor = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all learning-based councillors."
+        },
+        {
+        	"trigger": "ordered_liege_or_above",
+        	"contents": "ordered_liege_or_above = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all lieges above a character (skipping the character themselves)."
+        },
+        {
+        	"trigger": "ordered_martial_councillor",
+        	"contents": "ordered_martial_councillor = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all martial-based councillors."
+        },
+        {
+        	"trigger": "ordered_memory",
+        	"contents": "ordered_memory = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Memory"],
+        	"details": "Iterate through all memories of a character."
+        },
+        {
+        	"trigger": "ordered_neighboring_and_across_water_realm_same_rank_owner",
+        	"contents": "ordered_neighboring_and_across_water_realm_same_rank_owner = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "A sub-realm or realm bordering the scope character's realm."
+        },
+        {
+        	"trigger": "ordered_neighboring_and_across_water_top_liege_realm",
+        	"contents": "ordered_neighboring_and_across_water_top_liege_realm = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "A realm with a different top liege neighboring the realm of the scope character's top liege."
+        },
+        {
+        	"trigger": "ordered_neighboring_and_across_water_top_liege_realm_owner",
+        	"contents": "ordered_neighboring_and_across_water_top_liege_realm_owner = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "A realm with a different top liege neighboring the realm of the scope character's top liege."
+        },
+        {
+        	"trigger": "ordered_neighboring_realm_same_rank_owner",
+        	"contents": "ordered_neighboring_realm_same_rank_owner = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "A sub-realm or realm bordering the scope character's realm and has the same rank as the scope character."
+        },
+        {
+        	"trigger": "ordered_neighboring_top_liege_realm",
+        	"contents": "ordered_neighboring_top_liege_realm = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "A realm with a different top liege neighboring the realm of the scope character's top liege; switches to the realm's top title."
+        },
+        {
+        	"trigger": "ordered_neighboring_top_liege_realm_owner",
+        	"contents": "ordered_neighboring_top_liege_realm_owner = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "A realm with a different top liege neighboring the realm of the scope character's top liege; switches to the holder of the realm."
+        },
+        {
+        	"trigger": "ordered_opposite_sex_spouse_candidate",
+        	"contents": "ordered_opposite_sex_spouse_candidate = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all the spouse candidates of the opposite sex of a character."
+        },
+        {
+        	"trigger": "ordered_owned_story",
+        	"contents": "ordered_owned_story = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Story"],
+        	"details": "Iterate through all owned stories for a character."
+        },
+        {
+        	"trigger": "ordered_parent",
+        	"contents": "ordered_parent = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all (both) parents."
+        },
+        {
+        	"trigger": "ordered_patroned_holy_order",
+        	"contents": "ordered_patroned_holy_order = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Holy Order"],
+        	"details": "Iterate through all holy orders that the scoped character is a patron of."
+        },
+        {
+        	"trigger": "ordered_personal_claimed_artifact",
+        	"contents": "ordered_personal_claimed_artifact = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Artifact"],
+        	"details": "Iterate through all personally claimed artifacts of the scoped character."
+        },
+        {
+        	"trigger": "ordered_pinned_character",
+        	"contents": "ordered_pinned_character = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through characters this player has pinned."
+        },
+        {
+        	"trigger": "ordered_pinning_character",
+        	"contents": "ordered_pinning_character = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through characters whose player has this character pinned."
+        },
+        {
+        	"trigger": "ordered_played_character",
+        	"contents": "ordered_played_character = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all characters the player playing this character has played."
+        },
+        {
+        	"trigger": "ordered_player_heir",
+        	"contents": "ordered_player_heir = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through player heirs, capped at the first 10."
+        },
+        {
+        	"trigger": "ordered_pool_guest",
+        	"contents": "ordered_pool_guest = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all guests visiting the court from the pool."
+        },
+        {
+        	"trigger": "ordered_potential_marriage_option",
+        	"contents": "ordered_potential_marriage_option = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all potential selectable marriage or betrothed options."
+        },
+        {
+        	"trigger": "ordered_powerful_vassal",
+        	"contents": "ordered_powerful_vassal = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through the all powerful vassals of a character."
+        },
+        {
+        	"trigger": "ordered_pretender_title",
+        	"contents": "ordered_pretender_title = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all landed titles character is pretender to."
+        },
+        {
+        	"trigger": "ordered_primary_war_enemy",
+        	"contents": "ordered_primary_war_enemy = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all primary war enemies."
+        },
+        {
+        	"trigger": "ordered_prisoner",
+        	"contents": "ordered_prisoner = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all prisoners."
+        },
+        {
+        	"trigger": "ordered_prowess_councillor",
+        	"contents": "ordered_prowess_councillor = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all prowess-based councillors."
+        },
+        {
+        	"trigger": "ordered_raid_target",
+        	"contents": "ordered_raid_target = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through anyone the character is hostile to due to having raided them. Only returns top lieges."
+        },
+        {
+        	"trigger": "ordered_realm_county",
+        	"contents": "ordered_realm_county = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all counties in the realm. Based on top liege."
+        },
+        {
+        	"trigger": "ordered_realm_de_jure_duchy",
+        	"contents": "ordered_realm_de_jure_duchy = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all de jure duchies that have at least one county in the realm. Based on top liege."
+        },
+        {
+        	"trigger": "ordered_realm_de_jure_empire",
+        	"contents": "ordered_realm_de_jure_empire = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all de jure empire that have at least one county in the realm. Based on top liege."
+        },
+        {
+        	"trigger": "ordered_realm_de_jure_kingdom",
+        	"contents": "ordered_realm_de_jure_kingdom = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all de jure kingdom that have at least one county in the realm. Based on top liege."
+        },
+        {
+        	"trigger": "ordered_realm_province",
+        	"contents": "ordered_realm_province = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Province"],
+        	"details": "Iterate through all realm provinces of a character."
+        },
+        {
+        	"trigger": "ordered_relation",
+        	"contents": "ordered_relation = {\n\ttype = ${1:<type>}\n\torder_by = ${2:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through scripted relations of a given type or multiple types."
+        },
+        {
+        	"trigger": "ordered_same_sex_spouse_candidate",
+        	"contents": "ordered_same_sex_spouse_candidate = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all the spouse candidates of the same sex of a character."
+        },
+        {
+        	"trigger": "ordered_scheme",
+        	"contents": "ordered_scheme = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Scheme"],
+        	"details": "Iterate through all schemes owned by the character."
+        },
+        {
+        	"trigger": "ordered_secret",
+        	"contents": "ordered_secret = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Secret"],
+        	"details": "Iterate through all secrets of the character."
+        },
+        {
+        	"trigger": "ordered_sibling",
+        	"contents": "ordered_sibling = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all siblings."
+        },
+        {
+        	"trigger": "ordered_sponsored_inspiration",
+        	"contents": "ordered_sponsored_inspiration = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Inspiration"],
+        	"details": "Iterate through all sponsored inspirations."
+        },
+        {
+        	"trigger": "ordered_spouse",
+        	"contents": "ordered_spouse = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all spouses."
+        },
+        {
+        	"trigger": "ordered_spouse_candidate",
+        	"contents": "ordered_spouse_candidate = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all the spouse candidates of a character."
+        },
+        {
+        	"trigger": "ordered_stewardship_councillor",
+        	"contents": "ordered_stewardship_councillor = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all stewardship-based councillors."
+        },
+        {
+        	"trigger": "ordered_sub_realm_barony",
+        	"contents": "ordered_sub_realm_barony = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all baronies in sub-realm."
+        },
+        {
+        	"trigger": "ordered_sub_realm_county",
+        	"contents": "ordered_sub_realm_county = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all counties in sub-realm."
+        },
+        {
+        	"trigger": "ordered_sub_realm_duchy",
+        	"contents": "ordered_sub_realm_duchy = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all duchies in sub-realm."
+        },
+        {
+        	"trigger": "ordered_sub_realm_empire",
+        	"contents": "ordered_sub_realm_empire = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all empires in sub-realm."
+        },
+        {
+        	"trigger": "ordered_sub_realm_kingdom",
+        	"contents": "ordered_sub_realm_kingdom = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all kingdoms in sub-realm."
+        },
+        {
+        	"trigger": "ordered_sub_realm_title",
+        	"contents": "ordered_sub_realm_title = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Title"],
+        	"details": "Iterate through all titles in sub-realm."
+        },
+        {
+        	"trigger": "ordered_targeting_faction",
+        	"contents": "ordered_targeting_faction = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Faction"],
+        	"details": "Iterate through all factions targeting the scope character."
+        },
+        {
+        	"trigger": "ordered_targeting_scheme",
+        	"contents": "ordered_targeting_scheme = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Scheme"],
+        	"details": "Iterate through all schemes targeting the character."
+        },
+        {
+        	"trigger": "ordered_targeting_secret",
+        	"contents": "ordered_targeting_secret = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Secret"],
+        	"details": "Iterate through all secrets that target the specified scope."
+        },
+        {
+        	"trigger": "ordered_traveling_family_member",
+        	"contents": "ordered_traveling_family_member = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate though all characters that should travel with the scoped one (when moving between courts for instance); includes the scoped character."
+        },
+        {
+        	"trigger": "ordered_truce_holder",
+        	"contents": "ordered_truce_holder = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all characters that have a truce on this character."
+        },
+        {
+        	"trigger": "ordered_truce_target",
+        	"contents": "ordered_truce_target = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all characters this character has a truce on."
+        },
+        {
+        	"trigger": "ordered_unspent_known_secret",
+        	"contents": "ordered_unspent_known_secret = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Secret"],
+        	"details": "Iterate through all unspent secrets known by the character."
+        },
+        {
+        	"trigger": "ordered_vassal",
+        	"contents": "ordered_vassal = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all DIRECT vassals."
+        },
+        {
+        	"trigger": "ordered_vassal_or_below",
+        	"contents": "ordered_vassal_or_below = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through ALL vassals, not just direct vassals."
+        },
+        {
+        	"trigger": "ordered_war_ally",
+        	"contents": "ordered_war_ally = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all direct war allies."
+        },
+        {
+        	"trigger": "ordered_war_enemy",
+        	"contents": "ordered_war_enemy = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all direct war enemies."
+        },
+        {
+        	"trigger": "ordered_warden_hostage",
+        	"contents": "ordered_warden_hostage = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Character -> Character"],
+        	"details": "Iterate through all hostages having this warden."
+        },
+        {
+        	"trigger": "ordered_combat_side",
+        	"contents": "ordered_combat_side = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Combat -> Combat Side"],
+        	"details": "Iterate over both sides ( attacker and defender ) of the given combat."
+        },
+        {
+        	"trigger": "ordered_claimant",
+        	"contents": "ordered_claimant = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Character"],
+        	"details": "Iterate through all claimants to title."
+        },
+        {
+        	"trigger": "ordered_connected_county",
+        	"contents": "ordered_connected_county = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through all counties connected to this one."
+        },
+        {
+        	"trigger": "ordered_controlled_faith",
+        	"contents": "ordered_controlled_faith = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Faith"],
+        	"details": "Iterate through all faiths headed by a title."
+        },
+        {
+        	"trigger": "ordered_county_province",
+        	"contents": "ordered_county_province = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Province"],
+        	"details": "Iterate through all provinces in a county."
+        },
+        {
+        	"trigger": "ordered_county_struggle",
+        	"contents": "ordered_county_struggle = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Struggle"],
+        	"details": "Iterate through all struggles that a county is involved in."
+        },
+        {
+        	"trigger": "ordered_de_jure_county",
+        	"contents": "ordered_de_jure_county = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through all counties within this dejure title."
+        },
+        {
+        	"trigger": "ordered_de_jure_county_holder",
+        	"contents": "ordered_de_jure_county_holder = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Character"],
+        	"details": "Iterate through all characters directly holding counties within this dejure title."
+        },
+        {
+        	"trigger": "ordered_de_jure_top_liege",
+        	"contents": "ordered_de_jure_top_liege = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Character"],
+        	"details": "Iterate through all top lieges of the counts within this dejure title."
+        },
+        {
+        	"trigger": "ordered_dejure_vassal_title_holder",
+        	"contents": "ordered_dejure_vassal_title_holder = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Character"],
+        	"details": "Iterate through all the vassal holders of the title."
+        },
+        {
+        	"trigger": "ordered_direct_de_facto_vassal_title",
+        	"contents": "ordered_direct_de_facto_vassal_title = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through all de facto vassal titles."
+        },
+        {
+        	"trigger": "ordered_direct_de_jure_vassal_title",
+        	"contents": "ordered_direct_de_jure_vassal_title = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through the all de jure vassals titles."
+        },
+        {
+        	"trigger": "ordered_election_candidate",
+        	"contents": "ordered_election_candidate = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Character"],
+        	"details": "Iterate through all characters who are valid candidates in an election for a title."
+        },
+        {
+        	"trigger": "ordered_elector",
+        	"contents": "ordered_elector = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Character"],
+        	"details": "Iterate through all characters who are valid electors in an election for a title."
+        },
+        {
+        	"trigger": "ordered_in_de_facto_hierarchy",
+        	"contents": "ordered_in_de_facto_hierarchy = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through the title itself, all de facto vassals, and below."
+        },
+        {
+        	"trigger": "ordered_in_de_facto_hierarchy (continue)",
+        	"contents": "ordered_in_de_facto_hierarchy = {\n\tcontinue = {\n\t\n\t}\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through the title itself, all de facto vassals, and below."
+        },
+        {
+        	"trigger": "ordered_in_de_jure_hierarchy",
+        	"contents": "ordered_in_de_jure_hierarchy = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through the title itself, all de jure vassals, and below."
+        },
+        {
+        	"trigger": "ordered_in_de_jure_hierarchy (continue)",
+        	"contents": "ordered_in_de_jure_hierarchy = {\n\tcontinue = {\n\t\n\t}\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through the title itself, all de jure vassals, and below."
+        },
+        {
+        	"trigger": "ordered_neighboring_county",
+        	"contents": "ordered_neighboring_county = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through all neighboring counties. Can only be used in county scope."
+        },
+        {
+        	"trigger": "ordered_past_holder",
+        	"contents": "ordered_past_holder = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Character"],
+        	"details": "Iterate through all past owners of a title from earliest to latest."
+        },
+        {
+        	"trigger": "ordered_past_holder_reversed",
+        	"contents": "ordered_past_holder_reversed = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Character"],
+        	"details": "Iterate through all past owners of a title from latest to earliest."
+        },
+        {
+        	"trigger": "ordered_this_title_or_de_jure_above",
+        	"contents": "ordered_this_title_or_de_jure_above = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Iterate through this title and all its dejure liege titles."
+        },
+        {
+        	"trigger": "ordered_title_heir",
+        	"contents": "ordered_title_heir = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Line of succession for the scoped title."
+        },
+        {
+        	"trigger": "ordered_title_joined_faction",
+        	"contents": "ordered_title_joined_faction = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Faction"],
+        	"details": "Iterate through all factions joined the scope landed title."
+        },
+        {
+        	"trigger": "ordered_title_to_title_neighboring_and_across_water_county",
+        	"contents": "ordered_title_to_title_neighboring_and_across_water_county = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Scopes from a title to a neighboring county (incl. across water, looking trough the de Jure lieges)."
+        },
+        {
+        	"trigger": "ordered_title_to_title_neighboring_and_across_water_duchy",
+        	"contents": "ordered_title_to_title_neighboring_and_across_water_duchy = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Scopes from a title to a neighboring duchy (incl. across water, looking trough the de Jure lieges)."
+        },
+        {
+        	"trigger": "ordered_title_to_title_neighboring_and_across_water_empire",
+        	"contents": "ordered_title_to_title_neighboring_and_across_water_empire = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Scopes from a title to a neighboring empire (incl. across water, looking trough the de Jure lieges)."
+        },
+        {
+        	"trigger": "ordered_title_to_title_neighboring_and_across_water_kingdom",
+        	"contents": "ordered_title_to_title_neighboring_and_across_water_kingdom = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Scopes from a title to a neighboring kingdom (incl. across water, looking trough the de Jure lieges)."
+        },
+        {
+        	"trigger": "ordered_title_to_title_neighboring_county",
+        	"contents": "ordered_title_to_title_neighboring_county = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Scopes from a title to a neighboring county (looking trough the de Jure lieges)."
+        },
+        {
+        	"trigger": "ordered_title_to_title_neighboring_duchy",
+        	"contents": "ordered_title_to_title_neighboring_duchy = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Scopes from a title to a neighboring duchy (looking trough the de Jure lieges)."
+        },
+        {
+        	"trigger": "ordered_title_to_title_neighboring_empire",
+        	"contents": "ordered_title_to_title_neighboring_empire = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Scopes from a title to a neighboring empire (looking trough the de Jure lieges)."
+        },
+        {
+        	"trigger": "ordered_title_to_title_neighboring_kingdom",
+        	"contents": "ordered_title_to_title_neighboring_kingdom = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Title -> Title"],
+        	"details": "Scopes from a title to a neighboring kingdom (looking trough the de Jure lieges)."
+        },
+        {
+        	"trigger": "ordered_faction_county_member",
+        	"contents": "ordered_faction_county_member = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Faction -> Title"],
+        	"details": "Iterate through all faction county members."
+        },
+        {
+        	"trigger": "ordered_faction_member",
+        	"contents": "ordered_faction_member = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Faction -> Character"],
+        	"details": "Iterate through all faction character members."
+        },
+        {
+        	"trigger": "ordered_side_commander",
+        	"contents": "ordered_side_commander = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Combat Side -> Character"],
+        	"details": "Iterate through all commanders (the commanders of every army on the side, not just the one leading the battle)."
+        },
+        {
+        	"trigger": "ordered_side_knight",
+        	"contents": "ordered_side_knight = {\n\torder_by = ${1:<script_value>}\n\tlimit = {\n\t\n\t}\n}\n",
+        	"annotation": "ScriptList",
+        	"kind": ["markup", "S", "Combat Side -> Character"],
+        	"details": "Iterate through all knights."
+        },
+   ]
+}

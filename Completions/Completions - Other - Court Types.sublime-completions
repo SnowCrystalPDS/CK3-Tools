@@ -1,0 +1,49 @@
+{
+   "scope": "text.pdx",
+
+   "completions":
+   [
+        {
+        	"trigger": "court_diplomatic",
+        	"contents": "court_diplomatic",
+        	"annotation": "Court Type",
+        	"kind": ["variable", "C", "Court Type"],
+        	"details": "Diplomatic Court",
+        },
+        {
+        	"trigger": "court_warlike",
+        	"contents": "court_warlike",
+        	"annotation": "Court Type",
+        	"kind": ["variable", "C", "Court Type"],
+        	"details": "Warlike Court",
+        },
+        {
+        	"trigger": "court_administrative",
+        	"contents": "court_administrative",
+        	"annotation": "Court Type",
+        	"kind": ["variable", "C", "Court Type"],
+        	"details": "Administrative Court",
+        },
+        {
+        	"trigger": "court_intrigue",
+        	"contents": "court_intrigue",
+        	"annotation": "Court Type",
+        	"kind": ["variable", "C", "Court Type"],
+        	"details": "Intrigue Court",
+        },
+        {
+        	"trigger": "court_scholarly",
+        	"contents": "court_scholarly",
+        	"annotation": "Court Type",
+        	"kind": ["variable", "C", "Court Type"],
+        	"details": "Scholarly Court",
+        },
+        {
+        	"trigger": "court_tribal",
+        	"contents": "court_tribal",
+        	"annotation": "Court Type",
+        	"kind": ["variable", "C", "Court Type"],
+        	"details": "Tribal Court",
+        },
+   ]
+}

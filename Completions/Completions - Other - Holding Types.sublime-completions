@@ -1,0 +1,35 @@
+{
+   "scope": "text.pdx",
+
+   "completions":
+   [
+        {
+        	"trigger": "castle_holding",
+        	"contents": "castle_holding",
+        	"annotation": "Court Type",
+        	"kind": ["variable", "C", "Court Type"],
+        	"details": "Castle",
+        },
+        {
+        	"trigger": "tribal_holding",
+        	"contents": "tribal_holding",
+        	"annotation": "Court Type",
+        	"kind": ["variable", "C", "Court Type"],
+        	"details": "Tribal",
+        },
+        {
+        	"trigger": "city_holding",
+        	"contents": "city_holding",
+        	"annotation": "Court Type",
+        	"kind": ["variable", "C", "Court Type"],
+        	"details": "City",
+        },
+        {
+        	"trigger": "church_holding",
+        	"contents": "church_holding",
+        	"annotation": "Court Type",
+        	"kind": ["variable", "C", "Court Type"],
+        	"details": "Temple",
+        },
+   ]
+}

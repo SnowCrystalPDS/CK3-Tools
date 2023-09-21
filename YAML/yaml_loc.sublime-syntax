@@ -1,0 +1,57 @@
+%YAML 1.2
+---
+name: YAML - Paradox
+file_extensions:
+  - yml
+scope: source.yaml_loc
+contexts:
+  main:
+    - match: '#'
+      scope: punctuation.definition.comment.example-c
+      push: yml_comment
+
+    - match: '^*\s*[.a-zA-Z0-9_-]*:[0-9]*'
+      scope: entity.name.tag.yaml
+      push: yml_key_version
+
+    - match: '"'
+      scope: punctuation.definition.string.begin.example-c
+      push: yml_value
+
+  yml_value:
+    - meta_scope: string.quoted.double.example-c
+    - match: '\['
+      push: function
+    - match: '\\.'
+      scope: constant.character.escape.example-c
+    - match: '§.'
+      scope: variable.parameter.c++
+    - match: '\$'
+      push: variable
+    - match: '#\b(?i)(bold|italic|tooltip|indent_newline|color_\w*|alert_trial|warning|underline|no_glow|default_glow|weak_glow|medium_glow|strong_glow|high|medium|low|weak|flavor|F|light_background|I|X|value|V|negative_value|positive_value|zero_value|N|P|Z|positive_value_toast|clickable|game_link|L|explanation_link|E|explanation_link_light_background|B|tooltip_heading|T|tooltip_subheading|S|debug|D|variable|date|trigger_inactive|difficulty_easy|difficulty_medium|difficulty_hard|true_white|TUT|TUT_KW|same|emphasis|EMP|BOL|DIE1|DIE2|BER|POE|flatulence|defender_color|attacker_color|credits_title|credits_header|credits_subheader|credits_entries)(?-i)\b|#!'
+      scope: variable.language
+    - match: '#'
+      scope: punctuation.definition.comment.example-c
+      push: yml_comment
+    - match: '$'
+      scope: punctuation.definition.string.end.example-c
+      pop: true
+
+  yml_comment:
+    - meta_scope: comment.line.example-c
+    - match: $
+      pop: true
+
+  yml_key_version:
+    - match: ' '
+      pop: true
+
+  function:
+    - meta_scope: entity.name.class.c++
+    - match: ']'
+      pop: true
+
+  variable:
+    - meta_scope: storage.type.c
+    - match: '\$'
+      pop: true

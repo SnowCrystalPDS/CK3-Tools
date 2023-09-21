@@ -1,2 +1,2 @@
 # CK3-Tools
-A repository for public CK3 Sublime tools.
+Public CK3 Sublime tools used by the CK3 team.
